@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply w-full px-4 py-2 mb-4 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+.input {
+  @apply w-full px-4 py-2 mb-4 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+.btn {
+  @apply px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+body.light {
+  background: linear-gradient(15deg, rgb(46, 46, 46),#ffffff);
+  color: #000000;
+}
+
+body.dark {
+  background: linear-gradient(15deg, rgb(46, 46, 46),rgb(0,0,0));
+  color: #ffffff;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+
