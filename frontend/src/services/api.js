@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000', // Backend URL
+  baseURL: 'https://project-2-task-management-backend.vercel.app/', // Backend URL
 });
 
 export default instance;
